@@ -1,0 +1,45 @@
+# ===============================
+# Python bytecode / cache
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.env/
+.envrc/
+
+# ===============================
+# Packet capture & traffic logs
+# ===============================
+*.pcap
+*.pcapng
+*.cap
+packets.log
+traffic.log
+sniffer.log
+
+# ===============================
+# OS / editor files
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Temporary / backup files
+# ===============================
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# ===============================
+# Optional: output directories
+# ===============================
+output/
+captures/
